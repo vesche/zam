@@ -16,6 +16,14 @@
 ## cli
 * https://github.com/spf13/cobra
 
+## json logging
+* https://github.com/natefinch/lumberjack
+* https://godoc.org/go.uber.org/zap ?
+
 ## network metadata
+* https://godoc.org/github.com/google/gopacket
+* https://docs.python.org/3/c-api/index.html
 
 ## python bindings
+* https://github.com/sbinet/go-python
+* https://godoc.org/github.com/sbinet/go-python
