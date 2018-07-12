@@ -18,6 +18,8 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
+
+	"github.com/vesche/zam/capture"
 )
 
 // interfaceCmd represents the interface command
@@ -26,7 +28,7 @@ var interfaceCmd = &cobra.Command{
 	Short: "Interface to listen on.",
 	Long: `Interface to listen on.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("interface called")
+		fmt.Println("Listening on %s...", args[0])
 	},
 }
 

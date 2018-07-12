@@ -6,7 +6,7 @@
 * network metadata outputs in JSON
 * scriptable with Python
 * easily pivot from metadata -> PCAP
-* easily injested into ElasticStack
+* output into ElasticStack
 * plugins
 
 ## misc nots
